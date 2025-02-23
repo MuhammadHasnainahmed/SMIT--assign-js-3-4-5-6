@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MATH EXPRESSIONS ALERTS | JAVASCRIPT</title>
+  </head>
+  <body>
+       
+    <a href="task3.html">Task3</a>
+    <a href="task4.html">Task4</a>
+    <a href="task5.html">Task5</a>
+    <a href="task6.html">Task6</a>
+
+
+    <script>
+      // Math expressions alerts
+
+      // 1
+      var num = 10;
+      document.write("Initial Value: " + num + "<br>");
+      num++;
+      document.write("After Increment: " + num + "<br>");
+      num += 7;
+      document.write("After Addition: " + num + "<br>");
+      num--;
+      document.write("After Decrement: " + num + "<br>");
+
+      // 2
+      var a = 2,
+        b = 1;      
+                //   1 - 0 +  1 + 1
+      var result = --a - --b + ++b + b--;
+      document.write("Result: " + result);
+      console.log(a, b);
+
+    // 3
+    let Username = prompt("Enter your website name");
+    alert("Welcome " + Username + " to our site");  
+
+    // 4
+    let UserAge = prompt("Enter your age");
+    alert("You are " + UserAge + " years old");
+
+    // 5    
+    let subject = prompt("Enter your subject name");
+    let mark = prompt("Enter your mark " + subject);
+    let totalMarks = 250;
+    let percentage = (mark / totalMarks) * 100;
+    document.write("You got " + percentage + "% in " + subject);
+
+      
+
+    </script>
+  </body>
+</html>
